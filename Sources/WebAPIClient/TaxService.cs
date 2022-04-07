@@ -14,7 +14,7 @@ namespace WebApiClient
             throw new NotImplementedException();
         }
 
-        public TaxRate GetTaxRate(string zip)
+        public RateAttributes GetTaxRate(string zip)
         {
             _calculator.GetTaxRate(zip);
             throw new NotImplementedException();

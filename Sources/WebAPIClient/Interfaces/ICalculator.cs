@@ -1,0 +1,6 @@
+namespace WebApiClient
+{
+    interface ICalculator
+    {
+    }
+}
